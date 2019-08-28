@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ti:app xmlns:ti="http://ti.appcelerator.org">
+<ti:app 
+  xmlns:ti="http://ti.appcelerator.org">
   <id>com.axway.drawer</id>
   <name>Drawer App</name>
   <version>1.0</version>
@@ -41,8 +42,10 @@
       </dict>
     </plist>
   </ios>
-  <android xmlns:android="http://schemas.android.com/apk/res/android">
-    <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1">
+  <android 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <manifest 
+      xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1">
     </manifest>
   </android>
   <modules/>

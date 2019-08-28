@@ -3,7 +3,6 @@
 		 "menuContent" is so it can be adjusted for padding as we do in the ios/drawer controller -->
 	<View id="wrapper">
 		<View id="menuContent">
-			<View id="padding" platform="ios" />
 			<Label id="title">Menu</Label>
 		</View>
 	</View>
