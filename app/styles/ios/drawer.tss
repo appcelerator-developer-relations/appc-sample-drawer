@@ -1,0 +1,9 @@
+"Window": {
+    backgroundColor: "#00000000",
+    fullscreen: true
+}
+
+"#background": {
+    backgroundColor: "#000",
+    opacity: 0
+}

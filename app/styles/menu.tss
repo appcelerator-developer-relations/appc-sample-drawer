@@ -1,0 +1,12 @@
+"#wrapper": {
+    backgroundColor: "#fff",
+    layout: 'vertical'
+}
+
+"#title": {
+    color: "#333",
+    top: 20,
+    font: {
+        fontSize: 20
+    }
+}

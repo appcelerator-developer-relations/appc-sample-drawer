@@ -1,0 +1,27 @@
+<Alloy>
+	<NavigationWindow id="navwin">
+		<Window onOpen="handleOpen" id="win">
+
+			<LeftNavButton platform="ios">
+				<Button title="Menu" onClick="showMenu" />
+			</LeftNavButton>
+
+			<!-- DrawerLayout is Android only. We have a custom menu using the 
+				 Button above -->
+			<DrawerLayout platform="android" id="drawer">
+				<CenterView>
+					<!-- On Android we add the content into the CenterView-->
+					<Require src="/content" />
+				</CenterView>
+				<LeftView>
+					<Require src="/menu" />
+				</LeftView>
+			</DrawerLayout>
+
+			<!-- On iOS we add the content straight to the window -->
+			<Require src="/content" platform="ios" />
+
+		</Window>
+	</NavigationWindow>
+
+</Alloy>

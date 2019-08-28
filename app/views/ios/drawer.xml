@@ -1,0 +1,6 @@
+<Alloy>
+	<Window onOpen="handleOpen" onPostlayout="handleSafearea" id="win">
+		<View id="background" onClick="dismiss" />
+		<Require src="/menu" id="menu" />
+	</Window>
+</Alloy>
